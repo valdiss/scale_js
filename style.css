@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.selected {
+  background-color: yellow;
+  transition: 2s;
+  animation: 2s selected infinite alternate;
+}
+
+.selected:hover {
+  border: 1px solid black;
+}
+
+@keyframes selected {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(2);
+  }
+}
