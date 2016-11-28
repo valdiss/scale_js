@@ -10,12 +10,12 @@ div {
   background-color: red;
   margin: auto;
   box-sizing: border-box;
+  animation: 2s scale infinite alternate;
 }
 
 .selected {
   background-color: yellow;
   transition: 2s;
-  animation: 2s scale infinite alternate;
 }
 
 .selected:hover {
