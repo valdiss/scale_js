@@ -15,14 +15,14 @@ div {
 .selected {
   background-color: yellow;
   transition: 2s;
-  animation: 2s selected infinite alternate;
+  animation: 2s scale infinite alternate;
 }
 
 .selected:hover {
   border: 1px solid black;
 }
 
-@keyframes selected {
+@keyframes scale {
   from {
     transform: scale(1);
   }
